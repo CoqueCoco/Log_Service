@@ -29,9 +29,6 @@ public class LogControllerTest {
     @MockBean
     private LogService logService;
 
-    @Autowired
-    private LogEntryModelAssembler assembler;
-
     @TestConfiguration
     static class TestConfig {
         @Bean
